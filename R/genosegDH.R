@@ -130,6 +130,9 @@ genosegDH <- function (geno, genocols, chromosomes, chrname = "chr", posname = "
 
     # output:
     rec.seg <- segments.summary(line.CNA.segment)
+	### to solve a "bug" associated with DNAcopy, add one more step to control cna.min.width
+	### bug was discussed here: https://support.bioconductor.org/p/92326/
+	rec.seg <- rec.seg[rec.seg[,5] >= cna.min.width, ]
 
     # merge the intervals that are <= min.seg.size
     # to avoid the assembly error that create pseudo segments, merge some interval:
