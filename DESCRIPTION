@@ -8,7 +8,7 @@ Depends:
     R (>= 3.5.0)
 biocViews:
 Imports:
-	DNAcopy
+	DNAcopy,
 	mgcv
 Description:
 	The genomap package is a collection of R scripts for manipulation of genotyping data, the conversion of genetic and physical maps, and genetic mapping.
