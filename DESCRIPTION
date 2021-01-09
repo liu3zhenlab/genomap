@@ -1,13 +1,15 @@
 Package: genomap 
 Version: 0.0.1
-Date: 2020-05-25
-Title: An R Package to determine manipulate genetic data
+Date: 2021-1-8
+Title: An R Package for manipulation of genetic data
 Author: Sanzhen Liu
 Maintainer: Sanzhen Liu <liu3zhen@gmail.com>
 Depends:
-    R (>= 3.1.0), DNAcopy, mgcv
+    R (>= 3.5.0)
+biocViews:
 Imports:
-	tools
+	DNAcopy
+	mgcv
 Description: Segmentation of genotypes 
 License: GPL
 URL: https://github.com/liu3zhenlab

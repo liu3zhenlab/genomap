@@ -1,0 +1,26 @@
+<!--
+% \VignetteEngine{knitr::rmarkdown}
+% \VignetteIndexEntry{An Introduction to the genomap Package}
+-->
+
+The genomap package is a collection of R scripts for manipulation of genotyping data, the conversion of genetic and physical maps, and genetic mapping. 
+
+### segmentation of genotypes (bin map)
+
+```{r}
+
+```
+
+### the conversion of genetic and physical maps
+
+```{r}
+
+```
+
+### genetic mapping through BSA
+
+```{r}
+
+```
+
+
