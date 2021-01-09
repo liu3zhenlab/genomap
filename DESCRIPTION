@@ -10,7 +10,8 @@ biocViews:
 Imports:
 	DNAcopy
 	mgcv
-Description: Segmentation of genotypes 
+Description:
+	The genomap package is a collection of R scripts for manipulation of genotyping data, the conversion of genetic and physical maps, and genetic mapping.
 License: GPL
 URL: https://github.com/liu3zhenlab
 BugReports: liu3zhen@gmail.com
